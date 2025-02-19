@@ -48,7 +48,7 @@ $(document).ready(function() {
 ---
 
 ## 📸 Example Preview
-![Preview](https://drive.google.com/file/d/1KTXwRBcEkAqRKFXZMVP4XtSSh8uE1gDb/view?usp=sharing)
+![Preview](https://drive.google.com/file/d/1KTXwRBcEkAqRKFXZMVP4XtSSh8uE1gDb/view)
 
 ---
 
