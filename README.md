@@ -1,61 +1,62 @@
-Sisodia DropZone - Documentation  body { background-color: #f4f7f6; font-family: 'Arial', sans-serif; } .code-block { background: #282c34; color: #ffffff; padding: 15px; border-radius: 5px; font-family: monospace; } .dropzone-preview { display: flex; flex-wrap: wrap; gap: 10px; } .dropzone-preview img { width: 100%; height: 100%; object-fit: cover; border-radius: 5px; border: 2px solid #ddd; } .container { max-width: 900px; background: white; padding: 30px; border-radius: 10px; box-shadow: 0px 4px 10px rgba(0,0,0,0.1); }
+# Sisodia DropZone - Documentation
 
-Sisodia DropZone - Documentation
-================================
+## 📌 Introduction
+**Sisodia DropZone** is a lightweight and powerful jQuery plugin that enables **drag & drop file uploads**, **direct file selection from URLs**, and **customizable file previews**, offering a seamless user experience.
 
-📌 Introduction
----------------
+---
 
-**Sisodia DropZone** is a lightweight and powerful jQuery plugin that enables \*\*drag & drop file uploads\*\*, \*\*direct file selection from URLs\*\*, and \*\*customizable file previews\*\* with a seamless user experience.
-
-🔗 CDN Integration
-------------------
-
+## 🔗 CDN Integration
 Include the following libraries in your HTML file:
 
-##### CSS:
-
+### CSS:
+```html
 <link href="https://cdn.jsdelivr.net/gh/sisodiadude/dropzone@v1.0.0/dist/style.css" rel="stylesheet">
+```
 
-##### JavaScript:
-
+### JavaScript:
+```html
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/sisodiadude/dropzone@v1.0.0/dist/script.js"></script>
+```
 
-⚙️ jQuery Initialization
-------------------------
+---
 
-Add an \*\*input field\*\* for file selection:
+## ⚙️ jQuery Initialization
+Add an **input field** for file selection:
 
+```html
 <input type="file" id="fileInput">
+```
 
-Then initialize it using jQuery:
-
+Then, initialize it using jQuery:
+```javascript
 $(document).ready(function() {
-    $('input\[type="file"\]').sisodiaDropZone();
+    $('input[type="file"]').sisodiaDropZone();
 });
+```
 
-✨ Features
-----------
+---
 
-*   🔹 \*\*Drag & Drop\*\* support
-*   🔹 \*\*Browse button\*\* for file selection
-*   🔹 \*\*File preview\*\* with add/remove functionality
-*   🔹 \*\*Direct file select from URL\*\*
-*   🔹 \*\*Multiple file selection\*\* support
-*   🔹 \*\*Customizable accepted file formats\*\*
+## ✨ Features
+✔️ **Drag & Drop** support  
+✔️ **Browse button** for file selection  
+✔️ **File preview** with add/remove functionality  
+✔️ **Direct file selection from URL**  
+✔️ **Multiple file selection** support  
+✔️ **Customizable accepted file formats**  
 
-📸 Example Preview
-------------------
+---
 
+## 📸 Example Preview
 ![Preview](image-1.png)
 
-🛠️ Advanced Configuration
---------------------------
+---
 
+## 🛠️ Advanced Configuration
 You can customize the DropZone by passing options:
 
-$('input\[type="file"\]').sisodiaDropZone({
+```javascript
+$('input[type="file"]').sisodiaDropZone({
     acceptedFormats: "image/png, image/jpeg, application/pdf", // Allowed file types
     inputName: "uploadedFiles", // Custom name attribute for the input field
     heading: "Upload Your Files", // Heading for the DropZone component
@@ -65,11 +66,13 @@ $('input\[type="file"\]').sisodiaDropZone({
     maxLimit: 200, // Maximum file number limit
     isMultiple: true // Allow multiple file selection
 });
+```
 
-##### Priority Handling
+---
 
-**Note:** If attributes that are valid for the input tag are present, they will be used unless overridden by initialization options.
+## 📌 Priority Handling
+Attributes and settings are applied based on the following priority order:
 
-*   **Initialization options** (Highest Priority)
-*   **Input tag attributes** (Medium Priority)
-*   **Default settings** (Lowest Priority)
+1. **Initialization options** (Highest Priority)
+2. **Input tag attributes** (Medium Priority)
+3. **Default settings** (Lowest Priority)
