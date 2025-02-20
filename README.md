@@ -10,6 +10,7 @@ Include the following libraries in your HTML file:
 
 ### CSS:
 ```html
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/gh/sisodiadude/dropzone@v1.0.0/dist/style.css" rel="stylesheet">
 ```
 
