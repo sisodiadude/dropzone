@@ -11,13 +11,13 @@ Include the following libraries in your HTML file:
 ### CSS:
 ```html
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/gh/sisodiadude/dropzone@v1.0.0/dist/style.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/sisodiadude/dropzone@1.0.0/dist/style.css" rel="stylesheet">
 ```
 
 ### JavaScript:
 ```html
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/sisodiadude/dropzone@v1.0.0/dist/script.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/sisodiadude/dropzone@1.0.0/dist/script.js"></script>
 ```
 
 ---
