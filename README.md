@@ -95,7 +95,7 @@ Settings are applied in the following order of precedence:
 
 ## 📸 Live Preview
 
-![Preview](https://drive.google.com/file/d/1KTXwRBcEkAqRKFXZMVP4XtSSh8uE1gDb/view)
+![Preview](https://drive.usercontent.google.com/download?id=1KTXwRBcEkAqRKFXZMVP4XtSSh8uE1gDb)
 
 ---
 
